@@ -108,7 +108,7 @@ export const projects: Project[] = [
       'Cloud deployment with FastAPI, React and Vercel'
     ],
     githubUrl: 'https://github.com/takhar0211/VoiceCare',
-    liveUrl: 'https://voice-care-9rnv2hzct-takhar0211s-projects.vercel.app',
+    liveUrl: 'https://voice-care-37i7.vercel.app/',
     featured: true,
   },
 
