@@ -73,6 +73,45 @@ export const projects: Project[] = [
     liveUrl: '',
     featured: true,
   },
+  {
+    id: 'VoiceCare',
+    name: 'VoiceCare — AI-Powered Clinical Documentation System',
+    description: 'An AI-powered clinical documentation platform that records doctor-patient conversations, transcribes multilingual speech, and automatically generates structured clinical notes and prescriptions for hospitals.',
+    longDescription: 'Developed an end-to-end AI clinical documentation platform that enables doctors to record patient consultations, automatically transcribe multilingual conversations using Sarvam AI, and generate structured medical documentation using Gemini and Groq LLMs. Built separate doctor and patient dashboards with secure authentication, patient health records, visit history, AI-assisted diagnosis, prescription generation, analytics, emergency QR health profiles, and real-time consultation workflows. Designed and deployed the application on Vercel with FastAPI backend, React frontend, and Supabase as the cloud database.',
+    techStack: [
+      'React',
+      'Vite',
+      'Tailwind CSS',
+      'FastAPI',
+      'Python',
+      'Supabase',
+      'PostgreSQL',
+      'Sarvam AI',
+      'Google Gemini',
+      'Groq LLM',
+      'Axios',
+      'Vercel'
+    ],
+    features: [
+      'AI-powered voice-to-clinical documentation',
+      'Real-time multilingual speech transcription (Hindi & English)',
+      'Automatic SOAP-style clinical note generation',
+      'AI-assisted diagnosis and clinical analysis',
+      'Prescription generation with medication recommendations',
+      'Doctor dashboard for patient management',
+      'Patient portal with health passport and visit history',
+      'Emergency QR-based health profile sharing',
+      'Clinical analytics and patient insights',
+      'Live transcript with speaker identification',
+      'Patient memory and RAG-powered medical chatbot',
+      'Role-based authentication for doctors and patients',
+      'Cloud deployment with FastAPI, React and Vercel'
+    ],
+    githubUrl: 'https://github.com/takhar0211/VoiceCare',
+    liveUrl: 'https://voice-care-9rnv2hzct-takhar0211s-projects.vercel.app',
+    featured: true,
+  },
+
 ];
 
 /** Returns only featured projects */
