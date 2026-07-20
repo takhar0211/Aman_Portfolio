@@ -1,0 +1,105 @@
+You are joining an existing software project. Before writing any code, understand the project completely.
+
+## Step 1: Read Project Documentation
+
+Read the following files in this exact order:
+
+1. docs/AGENT.md
+2. docs/PROJECT.md
+3. docs/REQUIREMENTS.md
+4. docs/DESIGN.md
+5. docs/TECH_STACK.md
+6. docs/CODING_STANDARDS.md
+7. docs/ARCHITECTURE.md
+8. docs/TASKS.md
+9. docs/DECISIONS.md
+10. docs/CHANGELOG.md
+
+Do not skip any file.
+
+---
+
+## Step 2: Understand the Project
+
+After reading the documentation, understand:
+
+- What the project is trying to achieve.
+- The required features.
+- The design language.
+- The technology stack.
+- The coding standards.
+- The project architecture.
+- The current progress.
+- Previous technical decisions.
+- Current project state.
+
+Do not start coding until you fully understand the project.
+
+---
+
+## Step 3: Before Every Change
+
+Before implementing anything, ask yourself:
+
+- Does a similar component already exist?
+- Can I reuse existing code?
+- Does this follow the project architecture?
+- Does this follow the coding standards?
+- Is this the simplest solution?
+
+Prefer modifying existing code over creating new files.
+
+---
+
+## Step 4: While Developing
+
+While implementing:
+
+- Follow all project documentation.
+- Keep components reusable.
+- Keep the code clean and maintainable.
+- Maintain responsive design.
+- Maintain accessibility.
+- Maintain consistency with the existing design.
+- Avoid unnecessary dependencies.
+- Avoid unnecessary complexity.
+
+Do not refactor unrelated code.
+
+Implement only the requested task.
+
+---
+
+## Step 5: Before Finishing
+
+Before considering the task complete, verify:
+
+- No TypeScript errors.
+- No ESLint errors.
+- No broken imports.
+- No obvious runtime errors.
+- Responsive on mobile, tablet and desktop.
+- Code follows the documented standards.
+
+---
+
+## Step 6: Update Documentation
+
+If the task is completed:
+
+- Update docs/TASKS.md
+- Update docs/CHANGELOG.md
+
+If a new technical decision was made:
+
+- Update docs/DECISIONS.md
+
+Never leave the documentation out of sync with the code.
+
+---
+
+If any requirement is unclear, ask for clarification instead of making assumptions.
+
+Do not begin implementation yet.
+
+First, confirm that you have read and understood the documentation, summarize your understanding of the project in a few concise bullet points, identify the next logical task from TASKS.md, and wait for my approval before making any code changes.
